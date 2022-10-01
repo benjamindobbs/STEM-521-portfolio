@@ -67,6 +67,9 @@
 </template>
 <script>
 export default {
+    router: {
+    base: '/STEM-521-portfolio/'
+  },
     data () {
         return {
             name: 'cardboard-furniture',
