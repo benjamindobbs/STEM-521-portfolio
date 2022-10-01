@@ -89,36 +89,36 @@ export default {
             name: 'mask',
             items: [
             {
-            src: '~/static/mask/1.JPG',
+            src: '/mask/1.JPG',
           },
           {
-            src: '~/static/mask/2.png',
+            src: '/mask/2.png',
           },
           {
-            src: '~/static/mask/3.png',
+            src: '/mask/3.png',
           },
           {
-            src: '~/static/mask/4.PNG',
+            src: '/mask/4.PNG',
           },
         ],
         processimages: [
         {
-            src: '~/static/mask/3.png',
+            src: '/mask/3.png',
             
           },
           {
-            src: '~/static/mask/2.png',
+            src: '/mask/2.png',
           },
           {
-            src: '~/static/mask/4.PNG',
+            src: '/mask/4.PNG',
           }
         ],
         productimages: [
         {
-            src: '~/static/mask/2.png',
+            src: '/mask/2.png',
           },
           {
-            src: '~/static/mask/1.JPG',
+            src: '/mask/1.JPG',
           }
         ]
         }

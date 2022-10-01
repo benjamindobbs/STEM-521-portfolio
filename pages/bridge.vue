@@ -80,27 +80,27 @@ export default {
             name: 'bridge',
             items: [
           {
-            src: '~/static/bridge/1.jpg',
+            src: '/bridge/1.jpg',
           },
           {
-            src: '~/static/bridge/2.jpg',
+            src: '/bridge/2.jpg',
           },
           {
-            src: '~/static/bridge/3.jpg',
+            src: '/bridge/3.jpg',
           },
           {
-            src: '~/static/bridge/4.jpg',
+            src: '/bridge/4.jpg',
           },
           {
-            src: '~/static/bridge/5.jpg',
+            src: '/bridge/5.jpg',
           },
           {
-            src: '~/static/bridge/6.jpg',
+            src: '/bridge/6.jpg',
           }
         ],
           productimages: [
           {
-            src: '~/static/bridge/6.jpg',
+            src: '/bridge/6.jpg',
           }
 
           ]

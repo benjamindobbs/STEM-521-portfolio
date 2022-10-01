@@ -88,75 +88,75 @@ export default {
             name: 'catapult',
             items: [
             {
-            src: '~/static/catapult/1.jpg',
+            src: '/catapult/1.jpg',
           },
           {
-            src: '~/static/catapult/2.jpg',
+            src: '/catapult/2.jpg',
           },
           {
-            src: '~/static/catapult/3.jpg',
+            src: '/catapult/3.jpg',
           },
           {
-            src: '~/static/catapult/4.jpg',
+            src: '/catapult/4.jpg',
           },
           {
-            src: '~/static/catapult/5.jpg',
+            src: '/catapult/5.jpg',
           },
           {
-            src: '~/static/catapult/6.jpg',
+            src: '/catapult/6.jpg',
           },
           {
-            src: '~/static/catapult/7.jpg',
+            src: '/catapult/7.jpg',
           },
           {
-            src: '~/static/catapult/8.jpg',
+            src: '/catapult/8.jpg',
           },
           {
-            src: '~/static/catapult/9.jpg',
+            src: '/catapult/9.jpg',
           },
           {
-            src: '~/static/catapult/10.jpg',
+            src: '/catapult/10.jpg',
           },
           {
-            src: '~/static/catapult/11.jpg',
+            src: '/catapult/11.jpg',
           },
           {
-            src: '~/static/catapult/12.jpg',
+            src: '/catapult/12.jpg',
           },
           {
-            src: '~/static/catapult/13.jpg',
+            src: '/catapult/13.jpg',
           }
           
         ],
         processimages: [
         {
-            src: '~/static/catapult/13.jpg',
+            src: '/catapult/13.jpg',
           },
           {
-            src: '~/static/catapult/8.jpg',
+            src: '/catapult/8.jpg',
           },
           {
-            src: '~/static/catapult/2.jpg',
+            src: '/catapult/2.jpg',
           },
           {
-            src: '~/static/catapult/3.jpg',
+            src: '/catapult/3.jpg',
           },
           {
-            src: '~/static/catapult/7.jpg',
+            src: '/catapult/7.jpg',
           },
           {
-            src: '~/static/catapult/5.jpg',
+            src: '/catapult/5.jpg',
           }
         ],
         productimages: [
             {
-            src: '~/static/catapult/10.jpg',
+            src: '/catapult/10.jpg',
           },
           {
-            src: '~/static/catapult/9.jpg',
+            src: '/catapult/9.jpg',
           },
           {
-            src: '~/static/catapult/6.jpg',
+            src: '/catapult/6.jpg',
           },
 
         ]

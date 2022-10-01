@@ -78,29 +78,29 @@ export default {
             name: 'geometric-art',
             items: [
           {
-            src: '~/static/geometric-art/1.JPG',
+            src: '/geometric-art/1.JPG',
           },
           {
-            src: '~/static/geometric-art/2.JPG',
+            src: '/geometric-art/2.JPG',
           },
           {
-            src: '~/static/geometric-art/3.png',
+            src: '/geometric-art/3.png',
           }
         ],
         processimages: [
             {
-            src: '~/static/geometric-art/3.png',
+            src: '/geometric-art/3.png',
           },
           {
-            src: '~/static/geometric-art/1.JPG',
+            src: '/geometric-art/1.JPG',
           },
         ],
         productimages: [
         {
-            src: '~/static/geometric-art/1.JPG',
+            src: '/geometric-art/1.JPG',
           },
           {
-            src: '~/static/geometric-art/2.JPG',
+            src: '/geometric-art/2.JPG',
           },
         ]
         }

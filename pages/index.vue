@@ -2,7 +2,7 @@
   <v-main>
       <v-card>
         <v-card-title class="headline">
-          TE-531 Portfolio
+          STEM-521 Portfolio
         </v-card-title>
         <v-card-text>
           This document contains a repository of resources generated throughout the TE-531 course. To look at a project choose one from the sidebar or press 'continue'
@@ -36,25 +36,25 @@ export default {
         name: 'IndexPage',
         items: [
           {
-            src: "~/static/home/2.jpg"
+            src: "/home/2.jpg"
           },
           {
-            src: "~/static/home/3.jpg"
+            src: "/home/3.jpg"
           },
           {
-            src: "~/static/home/4.jpg"
+            src: "/home/4.jpg"
           },
           {
-            src: "~/static/home/5.jpg"
+            src: "/home/5.jpg"
           },
           {
-            src: "~/static/home/7.jpg"
+            src: "/home/7.jpg"
           },
           {
-            src: "~/static/home/11.jpg"
+            src: "/home/11.jpg"
           },
           {
-            src: "~/static/home/12.JPG"
+            src: "/home/12.JPG"
           },
         ]    
       }

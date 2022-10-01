@@ -72,43 +72,43 @@ export default {
             name: 'cardboard-furniture',
             items: [
           {
-            src: '~/static/cardboard-furniture/1.jpg',
+            src: '/cardboard-furniture/1.jpg',
           },
           {
-            src: '~/static/cardboard-furniture/2.jpg',
+            src: '/cardboard-furniture/2.jpg',
           },
           {
-            src: '~/static/cardboard-furniture/3.jpg',
+            src: '/cardboard-furniture/3.jpg',
           },
           {
-            src: '~/static/cardboard-furniture/4.JPG',
+            src: '/cardboard-furniture/4.JPG',
           },
           {
-            src: '~/static/cardboard-furniture/5.jpg',
+            src: '/cardboard-furniture/5.jpg',
           },
           {
-            src: '~/static/cardboard-furniture/6.jpg',
+            src: '/cardboard-furniture/6.jpg',
           },
           {
-            src: '~/static/cardboard-furniture/7.jpg',
+            src: '/cardboard-furniture/7.jpg',
           },
           {
-            src: '~/static/cardboard-furniture/8.jpg',
+            src: '/cardboard-furniture/8.jpg',
           },
           {
-            src: '~/static/cardboard-furniture/9.jpg',
+            src: '/cardboard-furniture/9.jpg',
           },
           {
-            src: '~/static/cardboard-furniture/10.jpg',
+            src: '/cardboard-furniture/10.jpg',
           },
           {
-            src: '~/static/cardboard-furniture/11.jpg',
+            src: '/cardboard-furniture/11.jpg',
           },
           {
-            src: '~/static/cardboard-furniture/12.jpg',
+            src: '/cardboard-furniture/12.jpg',
           },
           {
-            src: '~/static/cardboard-furniture/13.jpg',
+            src: '/cardboard-furniture/13.jpg',
           }
         ],
         }
