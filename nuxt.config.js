@@ -61,5 +61,10 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  target: 'static',
+  router: {
+    base: '/te-531-portfolio/'
   }
+  
 }
