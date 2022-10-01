@@ -73,37 +73,34 @@
 </template>
 <script>
 export default {
-    router: {
-    base: '/STEM-521-portfolio/'
-  },
     data () {
         return {
             name: 'geometric-art',
             items: [
           {
-            src: '/geometric-art/1.JPG',
+            src: '/STEM-521-portfolio/geometric-art/1.JPG',
           },
           {
-            src: '/geometric-art/2.JPG',
+            src: '/STEM-521-portfolio/geometric-art/2.JPG',
           },
           {
-            src: '/geometric-art/3.png',
+            src: '/STEM-521-portfolio/geometric-art/3.png',
           }
         ],
         processimages: [
             {
-            src: '/geometric-art/3.png',
+            src: '/STEM-521-portfolio/geometric-art/3.png',
           },
           {
-            src: '/geometric-art/1.JPG',
+            src: '/STEM-521-portfolio/geometric-art/1.JPG',
           },
         ],
         productimages: [
         {
-            src: '/geometric-art/1.JPG',
+            src: '/STEM-521-portfolio/geometric-art/1.JPG',
           },
           {
-            src: '/geometric-art/2.JPG',
+            src: '/STEM-521-portfolio/geometric-art/2.JPG',
           },
         ]
         }

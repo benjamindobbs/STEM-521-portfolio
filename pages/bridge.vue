@@ -75,35 +75,32 @@
 </template>
 <script>
 export default {
-    router: {
-    base: '/STEM-521-portfolio/'
-  },
     data () {
         return {
             name: 'bridge',
             items: [
           {
-            src: '/bridge/1.jpg',
+            src: '/STEM-521-portfolio/bridge/1.jpg',
           },
           {
-            src: '/bridge/2.jpg',
+            src: '/STEM-521-portfolio/bridge/2.jpg',
           },
           {
-            src: '/bridge/3.jpg',
+            src: '/STEM-521-portfolio/bridge/3.jpg',
           },
           {
-            src: '/bridge/4.jpg',
+            src: '/STEM-521-portfolio/bridge/4.jpg',
           },
           {
-            src: '/bridge/5.jpg',
+            src: '/STEM-521-portfolio/bridge/5.jpg',
           },
           {
-            src: '/bridge/6.jpg',
+            src: '/STEM-521-portfolio/bridge/6.jpg',
           }
         ],
           productimages: [
           {
-            src: '/bridge/6.jpg',
+            src: '/STEM-521-portfolio/bridge/6.jpg',
           }
 
           ]

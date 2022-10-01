@@ -31,33 +31,30 @@
 
 <script>
 export default { 
-  router: {
-    base: '/STEM-521-portfolio/'
-  },
    data () {
       return {
         name: 'IndexPage',
         items: [
           {
-            src: "/home/2.jpg"
+            src: "/STEM-521-portfolio/home/2.jpg"
           },
           {
-            src: "/home/3.jpg"
+            src: "/STEM-521-portfolio/home/3.jpg"
           },
           {
-            src: "/home/4.jpg"
+            src: "/STEM-521-portfolio/home/4.jpg"
           },
           {
-            src: "/home/5.jpg"
+            src: "/STEM-521-portfolio/home/5.jpg"
           },
           {
-            src: "/home/7.jpg"
+            src: "/STEM-521-portfolio/home/7.jpg"
           },
           {
-            src: "/home/11.jpg"
+            src: "/STEM-521-portfolio/home/11.jpg"
           },
           {
-            src: "/home/12.JPG"
+            src: "/STEM-521-portfolio/home/12.JPG"
           },
         ]    
       }

@@ -83,83 +83,80 @@
 </template>
 <script>
 export default {
-    router: {
-    base: '/STEM-521-portfolio/'
-  },
     data () {
         return {
             name: 'catapult',
             items: [
             {
-            src: '/catapult/1.jpg',
+            src: '/STEM-521-portfolio/catapult/1.jpg',
           },
           {
-            src: '/catapult/2.jpg',
+            src: '/STEM-521-portfolio/catapult/2.jpg',
           },
           {
-            src: '/catapult/3.jpg',
+            src: '/STEM-521-portfolio/catapult/3.jpg',
           },
           {
-            src: '/catapult/4.jpg',
+            src: '/STEM-521-portfolio/catapult/4.jpg',
           },
           {
-            src: '/catapult/5.jpg',
+            src: '/STEM-521-portfolio/catapult/5.jpg',
           },
           {
-            src: '/catapult/6.jpg',
+            src: '/STEM-521-portfolio/catapult/6.jpg',
           },
           {
-            src: '/catapult/7.jpg',
+            src: '/STEM-521-portfolio/catapult/7.jpg',
           },
           {
-            src: '/catapult/8.jpg',
+            src: '/STEM-521-portfolio/catapult/8.jpg',
           },
           {
-            src: '/catapult/9.jpg',
+            src: '/STEM-521-portfolio/catapult/9.jpg',
           },
           {
-            src: '/catapult/10.jpg',
+            src: '/STEM-521-portfolio/catapult/10.jpg',
           },
           {
-            src: '/catapult/11.jpg',
+            src: '/STEM-521-portfolio/catapult/11.jpg',
           },
           {
-            src: '/catapult/12.jpg',
+            src: '/STEM-521-portfolio/catapult/12.jpg',
           },
           {
-            src: '/catapult/13.jpg',
+            src: '/STEM-521-portfolio/catapult/13.jpg',
           }
           
         ],
         processimages: [
         {
-            src: '/catapult/13.jpg',
+            src: '/STEM-521-portfolio/catapult/13.jpg',
           },
           {
-            src: '/catapult/8.jpg',
+            src: '/STEM-521-portfolio/catapult/8.jpg',
           },
           {
-            src: '/catapult/2.jpg',
+            src: '/STEM-521-portfolio/catapult/2.jpg',
           },
           {
-            src: '/catapult/3.jpg',
+            src: '/STEM-521-portfolio/catapult/3.jpg',
           },
           {
-            src: '/catapult/7.jpg',
+            src: '/STEM-521-portfolio/catapult/7.jpg',
           },
           {
-            src: '/catapult/5.jpg',
+            src: '/STEM-521-portfolio/catapult/5.jpg',
           }
         ],
         productimages: [
             {
-            src: '/catapult/10.jpg',
+            src: '/STEM-521-portfolio/catapult/10.jpg',
           },
           {
-            src: '/catapult/9.jpg',
+            src: '/STEM-521-portfolio/catapult/9.jpg',
           },
           {
-            src: '/catapult/6.jpg',
+            src: '/STEM-521-portfolio/catapult/6.jpg',
           },
 
         ]

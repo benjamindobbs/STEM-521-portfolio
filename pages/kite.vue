@@ -83,59 +83,56 @@
 </template>
 <script>
 export default {
-    router: {
-    base: '/STEM-521-portfolio/'
-  },
     data () {
         return {
             name: 'kite',
             items: [
             {
-            src: '/kite/1.jpg',
+            src: '/STEM-521-portfolio/kite/1.jpg',
           },
           {
-            src: '/kite/2.jpg',
+            src: '/STEM-521-portfolio/kite/2.jpg',
           },
           {
-            src: '/kite/3.jpg',
+            src: '/STEM-521-portfolio/kite/3.jpg',
           },
           {
-            src: '/kite/4.jpg',
+            src: '/STEM-521-portfolio/kite/4.jpg',
           },
           {
-            src: '/kite/5.jpg',
+            src: '/STEM-521-portfolio/kite/5.jpg',
           },
           {
-            src: '/kite/6.jpg',
+            src: '/STEM-521-portfolio/kite/6.jpg',
           },
           {
-            src: '/kite/7.jpg',
+            src: '/STEM-521-portfolio/kite/7.jpg',
           },
           {
-            src: '/kite/8.jpg',
+            src: '/STEM-521-portfolio/kite/8.jpg',
           },
           {
-            src: '/kite/9.jpg',
+            src: '/STEM-521-portfolio/kite/9.jpg',
           },
           {
-            src: '/kite/10.jpg',
+            src: '/STEM-521-portfolio/kite/10.jpg',
           },
           {
-            src: '/kite/11.JPG',
+            src: '/STEM-521-portfolio/kite/11.JPG',
           },
           {
-            src: '/kite/12.JPG',
+            src: '/STEM-521-portfolio/kite/12.JPG',
           },
           
         ],
           processimages: [
           {
-            src: '/kite/11.JPG',
+            src: '/STEM-521-portfolio/kite/11.JPG',
           },
           ],
           productimages:[
           {
-            src: '/kite/12.JPG',
+            src: '/STEM-521-portfolio/kite/12.JPG',
           },
           ]
         }

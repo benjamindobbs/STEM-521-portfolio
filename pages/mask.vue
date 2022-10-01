@@ -84,44 +84,41 @@
 </template>
 <script>
 export default {
-    router: {
-    base: '/STEM-521-portfolio/'
-  },
     data () {
         return {
             name: 'mask',
             items: [
             {
-            src: '/mask/1.JPG',
+            src: '/STEM-521-portfolio/mask/1.JPG',
           },
           {
-            src: '/mask/2.png',
+            src: '/STEM-521-portfolio/mask/2.png',
           },
           {
-            src: '/mask/3.png',
+            src: '/STEM-521-portfolio/mask/3.png',
           },
           {
-            src: '/mask/4.PNG',
+            src: '/STEM-521-portfolio/mask/4.PNG',
           },
         ],
         processimages: [
         {
-            src: '/mask/3.png',
+            src: '/STEM-521-portfolio/mask/3.png',
             
           },
           {
-            src: '/mask/2.png',
+            src: '/STEM-521-portfolio/mask/2.png',
           },
           {
-            src: '/mask/4.PNG',
+            src: '/STEM-521-portfolio/mask/4.PNG',
           }
         ],
         productimages: [
         {
-            src: '/mask/2.png',
+            src: '/STEM-521-portfolio/mask/2.png',
           },
           {
-            src: '/mask/1.JPG',
+            src: '/STEM-521-portfolio/mask/1.JPG',
           }
         ]
         }
