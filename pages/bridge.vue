@@ -100,7 +100,7 @@ export default {
         ],
           productimages: [
           {
-            src: '/STEM-521-portfolio/bridge/6.jpg',
+            src: '/STEM-521-portfolio/bridge/6.JPG',
           }
 
           ]

@@ -130,7 +130,7 @@ export default {
         ],
         processimages: [
         {
-            src: '/STEM-521-portfolio/catapult/13.jpg',
+            src: '/STEM-521-portfolio/catapult/13.JPG',
           },
           {
             src: '/STEM-521-portfolio/catapult/8.jpg',
