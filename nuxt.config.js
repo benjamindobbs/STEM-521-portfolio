@@ -1,6 +1,10 @@
 import colors from 'vuetify/es5/util/colors'
 
 export default {
+  target: 'static',
+  router: {
+    base: '/te-531-portfolio/'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - portfolio',
@@ -61,10 +65,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  },
-  target: 'static',
-  router: {
-    base: '/te-531-portfolio/'
   }
   
 }
