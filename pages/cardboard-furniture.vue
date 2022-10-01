@@ -3,10 +3,10 @@
         <v-carousel hide-delimiters :show-arrows="false" cycle>
             <v-carousel-item
                 v-for="(item,i) in items"
-                :key="i"
-                :src="item.src"
-                
-            ></v-carousel-item>
+                :key="i"              
+            >
+            <v-img :src=item.src contain height="100vh" width="100%"> </v-img>
+        </v-carousel-item>
         </v-carousel>
   <v-container>
     <v-row
@@ -43,13 +43,6 @@
         <v-card-text>
             My sample project was more of an art piece than it was a practical peice of furniture. I started with a rough sketched idea, that I then brought into CAD to calculate the required measurement. I made an initial attempt of the project, but was not satisfied with the result. Afterwards, I made a second attempt of the project and simplified the design significantly. I still ran into several issues, mostly with tolerances... But eventually ended with a product that was vaguely representative of my initial design.
         </v-card-text>
-        <v-carousel>
-            <v-carousel-item
-                v-for="(item,i) in items"
-                :key="i"
-                :src="item.src"
-            ></v-carousel-item>
-        </v-carousel>
     </v-card>
     <v-card class="ma-6">
         <v-card-title>
@@ -58,13 +51,16 @@
         <v-card-text>
             The final product was certainly less than satisfactory, but by the metrics of the project, it was successful. Were I to do the project again, I would add additional clearance on the intersecting regions of the design.
         </v-card-text>
-        <v-carousel>
-            <v-carousel-item
-                v-for="(item,i) in items"
-                :key="i"
-                :src="item.src"
-            ></v-carousel-item>
-        </v-carousel>
+        <v-card-actions>
+          <v-spacer />
+          <v-btn
+            color="primary"
+            nuxt
+            to="/geometric-art"
+          >
+            Continue
+          </v-btn>
+        </v-card-actions>
     </v-card>
   </v-container>
     </v-main>
@@ -76,18 +72,45 @@ export default {
             name: 'cardboard-furniture',
             items: [
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+            src: '/cardboard-furniture/1.jpg',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+            src: '/cardboard-furniture/2.jpg',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+            src: '/cardboard-furniture/3.jpg',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+            src: '/cardboard-furniture/4.JPG',
+          },
+          {
+            src: '/cardboard-furniture/5.jpg',
+          },
+          {
+            src: '/cardboard-furniture/6.jpg',
+          },
+          {
+            src: '/cardboard-furniture/7.jpg',
+          },
+          {
+            src: '/cardboard-furniture/8.jpg',
+          },
+          {
+            src: '/cardboard-furniture/9.jpg',
+          },
+          {
+            src: '/cardboard-furniture/10.jpg',
+          },
+          {
+            src: '/cardboard-furniture/11.jpg',
+          },
+          {
+            src: '/cardboard-furniture/12.jpg',
+          },
+          {
+            src: '/cardboard-furniture/13.jpg',
           }
-        ]
+        ],
         }
         }
     }

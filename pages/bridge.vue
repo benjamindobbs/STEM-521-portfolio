@@ -3,10 +3,10 @@
         <v-carousel hide-delimiters :show-arrows="false" cycle>
             <v-carousel-item
                 v-for="(item,i) in items"
-                :key="i"
-                :src="item.src"
-                
-            ></v-carousel-item>
+                :key="i"              
+            >
+            <v-img :src=item.src contain height="100vh" width="100%"> </v-img>
+        </v-carousel-item>
         </v-carousel>
   <v-container>
     <v-row
@@ -43,13 +43,6 @@
         <v-card-text>
             While creating my sample project I started by examining the design requirements and the goal of the project (ISTE 1.4.b). I determined that the nature of the project really just desired a rope, not a bridge. Typically when finding solutions it is important to try a simple, and existing, solution. Students often try to reinvent the wheel and end up at a less than satisfactory solution. Research is the central pillar of good design, and simplicity is a virtue. I decided to make a braided rope and spend my time working on the support more so than the structure.  
         </v-card-text>
-        <v-carousel>
-            <v-carousel-item
-                v-for="(item,i) in items"
-                :key="i"
-                :src="item.src"
-            ></v-carousel-item>
-        </v-carousel>
     </v-card>
     <v-card class="ma-6">
         <v-card-title>
@@ -60,11 +53,22 @@
         </v-card-text>
         <v-carousel>
             <v-carousel-item
-                v-for="(item,i) in items"
+                v-for="(item,i) in productimages"
                 :key="i"
-                :src="item.src"
-            ></v-carousel-item>
+                >
+                <v-img :src=item.src contain height="100vh" width="100%"> </v-img>
+            </v-carousel-item>
         </v-carousel>
+        <v-card-actions>
+          <v-spacer />
+          <v-btn
+            color="primary"
+            nuxt
+            to="/mask"
+          >
+            Continue
+          </v-btn>
+        </v-card-actions>
     </v-card>
   </v-container>
     </v-main>
@@ -76,18 +80,30 @@ export default {
             name: 'bridge',
             items: [
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+            src: '/bridge/1.jpg',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+            src: '/bridge/2.jpg',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+            src: '/bridge/3.jpg',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+            src: '/bridge/4.jpg',
+          },
+          {
+            src: '/bridge/5.jpg',
+          },
+          {
+            src: '/bridge/6.jpg',
           }
-        ]
+        ],
+          productimages: [
+          {
+            src: '/bridge/6.jpg',
+          }
+
+          ]
         }
         }
     }

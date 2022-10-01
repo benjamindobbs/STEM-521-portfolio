@@ -3,10 +3,10 @@
         <v-carousel hide-delimiters :show-arrows="false" cycle>
             <v-carousel-item
                 v-for="(item,i) in items"
-                :key="i"
-                :src="item.src"
-                
-            ></v-carousel-item>
+                :key="i"              
+            >
+            <v-img :src=item.src contain height="100vh" width="100%"> </v-img>
+        </v-carousel-item>
         </v-carousel>
   <v-container>
     <v-row
@@ -45,10 +45,11 @@
         </v-card-text>
         <v-carousel>
             <v-carousel-item
-                v-for="(item,i) in items"
-                :key="i"
-                :src="item.src"
-            ></v-carousel-item>
+                v-for="(item,i) in processimages"
+                :key="i"              
+            >
+            <v-img :src=item.src contain height="100vh" width="100%"> </v-img>
+        </v-carousel-item>
         </v-carousel>
     </v-card>
     <v-card class="ma-6">
@@ -60,11 +61,22 @@
         </v-card-text>
         <v-carousel>
             <v-carousel-item
-                v-for="(item,i) in items"
-                :key="i"
-                :src="item.src"
-            ></v-carousel-item>
+                v-for="(item,i) in productimages"
+                :key="i"              
+            >
+            <v-img :src=item.src contain height="100vh" width="100%"> </v-img>
+        </v-carousel-item>
         </v-carousel>
+        <v-card-actions>
+          <v-spacer />
+          <v-btn
+            color="primary"
+            nuxt
+            to="/cardboard-furniture"
+          >
+            Continue
+          </v-btn>
+        </v-card-actions>
     </v-card>
   </v-container>
     </v-main>
@@ -75,19 +87,54 @@ export default {
         return {
             name: 'kite',
             items: [
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+            {
+            src: '/kite/1.jpg',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+            src: '/kite/2.jpg',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+            src: '/kite/3.jpg',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
-          }
-        ]
+            src: '/kite/4.jpg',
+          },
+          {
+            src: '/kite/5.jpg',
+          },
+          {
+            src: '/kite/6.jpg',
+          },
+          {
+            src: '/kite/7.jpg',
+          },
+          {
+            src: '/kite/8.jpg',
+          },
+          {
+            src: '/kite/9.jpg',
+          },
+          {
+            src: '/kite/10.jpg',
+          },
+          {
+            src: '/kite/11.JPG',
+          },
+          {
+            src: '/kite/12.JPG',
+          },
+          
+        ],
+          processimages: [
+          {
+            src: '/kite/11.JPG',
+          },
+          ],
+          productimages:[
+          {
+            src: '/kite/12.JPG',
+          },
+          ]
         }
         }
     }

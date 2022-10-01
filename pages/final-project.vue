@@ -3,10 +3,10 @@
         <v-carousel hide-delimiters :show-arrows="false" cycle>
             <v-carousel-item
                 v-for="(item,i) in items"
-                :key="i"
-                :src="item.src"
-                
-            ></v-carousel-item>
+                :key="i"              
+            >
+            <v-img :src=item.src contain height="100vh" width="100%"> </v-img>
+        </v-carousel-item>
         </v-carousel>
   <v-container>
     <v-row
@@ -65,6 +65,16 @@
                 :src="item.src"
             ></v-carousel-item>
         </v-carousel>
+        <v-card-actions>
+          <v-spacer />
+          <v-btn
+            color="primary"
+            nuxt
+            to="/mask"
+          >
+            Continue
+          </v-btn>
+        </v-card-actions>
     </v-card>
   </v-container>
     </v-main>

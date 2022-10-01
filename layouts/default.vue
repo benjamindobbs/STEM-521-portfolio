@@ -98,11 +98,6 @@ export default {
           icon: 'mdi-shape-outline',
           title: 'Geometric Art',
           to: '/geometric-art'
-        },
-        {
-          icon: 'mdi-language-python',
-          title: 'Final Project',
-          to: '/final-project'
         }
       ],
       miniVariant: true,

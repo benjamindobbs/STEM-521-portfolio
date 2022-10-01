@@ -3,10 +3,11 @@
         <v-carousel hide-delimiters :show-arrows="false" cycle>
             <v-carousel-item
                 v-for="(item,i) in items"
-                :key="i"
-                :src="item.src"
-                
-            ></v-carousel-item>
+                :key="i"              
+            >
+            
+            <v-img :src=item.src contain height="100vh" width="100%"></v-img>
+        </v-carousel-item>
         </v-carousel>
   <v-container>
     <v-row
@@ -45,10 +46,11 @@
         </v-card-text>
         <v-carousel>
             <v-carousel-item
-                v-for="(item,i) in items"
-                :key="i"
-                :src="item.src"
-            ></v-carousel-item>
+                v-for="(item,i) in processimages"
+                :key="i"              
+            >
+            <v-img :src=item.src contain height="100vh" width="100%"> </v-img>
+        </v-carousel-item>
         </v-carousel>
     </v-card>
     <v-card class="ma-6">
@@ -60,11 +62,22 @@
         </v-card-text>
         <v-carousel>
             <v-carousel-item
-                v-for="(item,i) in items"
-                :key="i"
-                :src="item.src"
-            ></v-carousel-item>
+                v-for="(item,i) in productimages"
+                :key="i"              
+            >
+            <v-img :src=item.src contain height="100vh" width="100%"> </v-img>
+        </v-carousel-item>
         </v-carousel>
+        <v-card-actions>
+          <v-spacer />
+          <v-btn
+            color="primary"
+            nuxt
+            to="/kite"
+          >
+            Continue
+          </v-btn>
+        </v-card-actions>
     </v-card>
   </v-container>
     </v-main>
@@ -75,17 +88,37 @@ export default {
         return {
             name: 'mask',
             items: [
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
+            {
+            src: '/mask/1.JPG',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
+            src: '/mask/2.png',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
+            src: '/mask/3.png',
           },
           {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
+            src: '/mask/4.PNG',
+          },
+        ],
+        processimages: [
+        {
+            src: '/mask/3.png',
+            
+          },
+          {
+            src: '/mask/2.png',
+          },
+          {
+            src: '/mask/4.PNG',
+          }
+        ],
+        productimages: [
+        {
+            src: '/mask/2.png',
+          },
+          {
+            src: '/mask/1.JPG',
           }
         ]
         }
