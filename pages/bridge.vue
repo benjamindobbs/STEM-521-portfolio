@@ -12,12 +12,12 @@
     <v-row
     justify="space-around" class="pa-12">
         <v-card>
-            <v-btn href="https://frugalfun4boys.com/how-to-build-water-balloon-launcher/" target="_blank">
+            <v-btn href="https://www.scientificamerican.com/article/paper-bridges/" target="_blank">
                 Resources
             </v-btn>
         </v-card>
         <v-card>
-            <v-btn href="https://www.instructables.com/Water-Balloon-Launcher/" target="_blank">
+            <v-btn href="https://www.youtube.com/watch?v=gtUZcIDrwoo" target="_blank">
                 Exemplar
             </v-btn>
         </v-card>
@@ -33,7 +33,7 @@
             Description
         </v-card-title>
         <v-card-text>
-            This project is incredibly enagaging and surprisingly simple. The project consists of constructing a free standing structure capable of launching water balloons using an elastic slingshot. The structure should be made from dimensional lumber, but the size of the final project is entirely up to you.
+            This project is intended to be a design challenge. The prompt is left intentionally vague to encourage a productive struggle. Students should be encouraged to try different solutions and to work collaboritively.
         </v-card-text>
     </v-card>
     <v-card class="ma-6">
@@ -41,7 +41,7 @@
         Process
         </v-card-title>
         <v-card-text>
-            Students should begin by researching the project, planning the entire structure, and creating a cut list. Students would then make their cuts and assemble their projects. My group started by working in Solidworks to determine the proper angles to maximize our distance. We determined the waterballoon should release at a 45 degree angle, and that the elastic could be pulled to a maximum distance of 10 feet. With those two pieces of information we were able to create a rough design of our project. We made sure to add ample support in the form of cross bracing. We specifically chose to make an 'X' shape with our supports to ensure the balloons had a valid path to travel upon release without hitting the supports.
+            While creating my sample project I started by examining the design requirements and the goal of the project (ISTE 1.4.b). I determined that the nature of the project really just desired a rope, not a bridge. Typically when finding solutions it is important to try a simple, and existing, solution. Students often try to reinvent the wheel and end up at a less than satisfactory solution. Research is the central pillar of good design, and simplicity is a virtue. I decided to make a braided rope and spend my time working on the support more so than the structure.  
         </v-card-text>
         <v-carousel>
             <v-carousel-item
@@ -56,7 +56,7 @@
           Results  
         </v-card-title>
         <v-card-text>
-            Our structure was very successful. We had very few missfires, and the design was incredibly consistent. The standard deviation of our shots was less than 40ft and we averaged 280ft distance per shot with a 24 m/s launch velocity. 
+            My rope bridge turned to out to be fairly successful. The success of the challenge was determined by the ratio of sheets of paper used, to the mass the structure could support. I was correct in my assumption that the limiting strength would not be the paper, but the mount of the paper to the tables. 
         </v-card-text>
         <v-carousel>
             <v-carousel-item
@@ -73,7 +73,7 @@
 export default {
     data () {
         return {
-            name: 'catapult',
+            name: 'bridge',
             items: [
           {
             src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',

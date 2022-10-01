@@ -12,12 +12,12 @@
     <v-row
     justify="space-around" class="pa-12">
         <v-card>
-            <v-btn href="https://frugalfun4boys.com/how-to-build-water-balloon-launcher/" target="_blank">
+            <v-btn href="https://www.thespruce.com/cardboard-furniture-designs-3017215" target="_blank">
                 Resources
             </v-btn>
         </v-card>
         <v-card>
-            <v-btn href="https://www.instructables.com/Water-Balloon-Launcher/" target="_blank">
+            <v-btn href="https://www.homedit.com/cardboard-furniture/" target="_blank">
                 Exemplar
             </v-btn>
         </v-card>
@@ -33,7 +33,7 @@
             Description
         </v-card-title>
         <v-card-text>
-            This project is incredibly enagaging and surprisingly simple. The project consists of constructing a free standing structure capable of launching water balloons using an elastic slingshot. The structure should be made from dimensional lumber, but the size of the final project is entirely up to you.
+            Cardboard furniture is an accessible and inexpensive design challenge. The challenge in itself is to create a piece of furniture entirely from cardboard and adhesives that is strong enough to support the creators weight. 
         </v-card-text>
     </v-card>
     <v-card class="ma-6">
@@ -41,7 +41,7 @@
         Process
         </v-card-title>
         <v-card-text>
-            Students should begin by researching the project, planning the entire structure, and creating a cut list. Students would then make their cuts and assemble their projects. My group started by working in Solidworks to determine the proper angles to maximize our distance. We determined the waterballoon should release at a 45 degree angle, and that the elastic could be pulled to a maximum distance of 10 feet. With those two pieces of information we were able to create a rough design of our project. We made sure to add ample support in the form of cross bracing. We specifically chose to make an 'X' shape with our supports to ensure the balloons had a valid path to travel upon release without hitting the supports.
+            My sample project was more of an art piece than it was a practical peice of furniture. I started with a rough sketched idea, that I then brought into CAD to calculate the required measurement. I made an initial attempt of the project, but was not satisfied with the result. Afterwards, I made a second attempt of the project and simplified the design significantly. I still ran into several issues, mostly with tolerances... But eventually ended with a product that was vaguely representative of my initial design.
         </v-card-text>
         <v-carousel>
             <v-carousel-item
@@ -56,7 +56,7 @@
           Results  
         </v-card-title>
         <v-card-text>
-            Our structure was very successful. We had very few missfires, and the design was incredibly consistent. The standard deviation of our shots was less than 40ft and we averaged 280ft distance per shot with a 24 m/s launch velocity. 
+            The final product was certainly less than satisfactory, but by the metrics of the project, it was successful. Were I to do the project again, I would add additional clearance on the intersecting regions of the design.
         </v-card-text>
         <v-carousel>
             <v-carousel-item
@@ -73,7 +73,7 @@
 export default {
     data () {
         return {
-            name: 'catapult',
+            name: 'cardboard-furniture',
             items: [
           {
             src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',

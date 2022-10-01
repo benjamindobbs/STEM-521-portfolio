@@ -12,12 +12,12 @@
     <v-row
     justify="space-around" class="pa-12">
         <v-card>
-            <v-btn href="https://frugalfun4boys.com/how-to-build-water-balloon-launcher/" target="_blank">
+            <v-btn href="https://www.scientificamerican.com/article/paper-bridges/" target="_blank">
                 Resources
             </v-btn>
         </v-card>
         <v-card>
-            <v-btn href="https://www.instructables.com/Water-Balloon-Launcher/" target="_blank">
+            <v-btn href="https://www.youtube.com/watch?v=gtUZcIDrwoo" target="_blank">
                 Exemplar
             </v-btn>
         </v-card>
@@ -33,7 +33,7 @@
             Description
         </v-card-title>
         <v-card-text>
-            This project is incredibly enagaging and surprisingly simple. The project consists of constructing a free standing structure capable of launching water balloons using an elastic slingshot. The structure should be made from dimensional lumber, but the size of the final project is entirely up to you.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </v-card-text>
     </v-card>
     <v-card class="ma-6">
@@ -41,7 +41,7 @@
         Process
         </v-card-title>
         <v-card-text>
-            Students should begin by researching the project, planning the entire structure, and creating a cut list. Students would then make their cuts and assemble their projects. My group started by working in Solidworks to determine the proper angles to maximize our distance. We determined the waterballoon should release at a 45 degree angle, and that the elastic could be pulled to a maximum distance of 10 feet. With those two pieces of information we were able to create a rough design of our project. We made sure to add ample support in the form of cross bracing. We specifically chose to make an 'X' shape with our supports to ensure the balloons had a valid path to travel upon release without hitting the supports.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </v-card-text>
         <v-carousel>
             <v-carousel-item
@@ -56,7 +56,7 @@
           Results  
         </v-card-title>
         <v-card-text>
-            Our structure was very successful. We had very few missfires, and the design was incredibly consistent. The standard deviation of our shots was less than 40ft and we averaged 280ft distance per shot with a 24 m/s launch velocity. 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
         </v-card-text>
         <v-carousel>
             <v-carousel-item
@@ -73,7 +73,7 @@
 export default {
     data () {
         return {
-            name: 'catapult',
+            name: 'final-project',
             items: [
           {
             src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',

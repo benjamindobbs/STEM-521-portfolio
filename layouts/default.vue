@@ -92,7 +92,7 @@ export default {
         {
           icon: 'mdi-sofa-single-outline',
           title: 'Cardboard Funiture',
-          to: '/cardboar-furniture'
+          to: '/cardboard-furniture'
         },
         {
           icon: 'mdi-shape-outline',

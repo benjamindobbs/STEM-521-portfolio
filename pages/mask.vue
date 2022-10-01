@@ -12,12 +12,12 @@
     <v-row
     justify="space-around" class="pa-12">
         <v-card>
-            <v-btn href="https://frugalfun4boys.com/how-to-build-water-balloon-launcher/" target="_blank">
+            <v-btn href="https://www.pinterest.com/pin/2462974774142854/" target="_blank">
                 Resources
             </v-btn>
         </v-card>
         <v-card>
-            <v-btn href="https://www.instructables.com/Water-Balloon-Launcher/" target="_blank">
+            <v-btn href="https://www.pinterest.com/pin/chin-colle-3d-paper-masks--92746073547691599/" target="_blank">
                 Exemplar
             </v-btn>
         </v-card>
@@ -33,7 +33,7 @@
             Description
         </v-card-title>
         <v-card-text>
-            This project is incredibly enagaging and surprisingly simple. The project consists of constructing a free standing structure capable of launching water balloons using an elastic slingshot. The structure should be made from dimensional lumber, but the size of the final project is entirely up to you.
+            This is a creative project. It can be combined with a creative writing prompt, or it could stem from an existing text or lore. This project is a great introduction to working with your hands and creating a product from your own idea. There are no set instructions, nor are the requirements precise. The project encourages creativity and importantly, is fun.
         </v-card-text>
     </v-card>
     <v-card class="ma-6">
@@ -41,7 +41,7 @@
         Process
         </v-card-title>
         <v-card-text>
-            Students should begin by researching the project, planning the entire structure, and creating a cut list. Students would then make their cuts and assemble their projects. My group started by working in Solidworks to determine the proper angles to maximize our distance. We determined the waterballoon should release at a 45 degree angle, and that the elastic could be pulled to a maximum distance of 10 feet. With those two pieces of information we were able to create a rough design of our project. We made sure to add ample support in the form of cross bracing. We specifically chose to make an 'X' shape with our supports to ensure the balloons had a valid path to travel upon release without hitting the supports.
+            For my sample project I decided to see how far I could take the prompt on a technical level. I designed my mask using Blender, and artist 3D modeling software. After I completed my render I took the file into Mastercam and began working on toolpaths to cut my design from sign foam. I ended up with a nearly complete mask straight off the router. I took some time to add some additional details with a set of jeweler's files. I rounded over sharp edges, added additional surface imperfections and cleaned up a few of the more pitted sections from the router. Once I was happy with the form, I began painting. I employed a few prop making techniques to get my desired aesthetic. I started with a basecoat of a blue tinted silver to get a base polished steel look. I then mixed a dark mudded color and filled in all of the cracks with a fine brush. I then took a shop rag and rubbed in the color. This technique gives the a muddied look. The rag keeps more of the soil tones in the cracks while simultaneously staining the entire piece. After the muddying proccess I went back over the whole mask with a silver wash using a similar rag technique. This returned that metalic surface finish I was looking for.  
         </v-card-text>
         <v-carousel>
             <v-carousel-item
@@ -56,7 +56,7 @@
           Results  
         </v-card-title>
         <v-card-text>
-            Our structure was very successful. We had very few missfires, and the design was incredibly consistent. The standard deviation of our shots was less than 40ft and we averaged 280ft distance per shot with a 24 m/s launch velocity. 
+            My mask ended up being a different texture from my original render. I just don't have the technical skill to recreate my original style with paint. The form of the mask is spot on, and I am very happy with my final product. 
         </v-card-text>
         <v-carousel>
             <v-carousel-item
@@ -73,7 +73,7 @@
 export default {
     data () {
         return {
-            name: 'catapult',
+            name: 'mask',
             items: [
           {
             src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',

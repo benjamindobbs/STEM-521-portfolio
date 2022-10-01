@@ -12,12 +12,12 @@
     <v-row
     justify="space-around" class="pa-12">
         <v-card>
-            <v-btn href="https://frugalfun4boys.com/how-to-build-water-balloon-launcher/" target="_blank">
+            <v-btn href="https://www.my-best-kite.com/how-to-build-kites.html" target="_blank">
                 Resources
             </v-btn>
         </v-card>
         <v-card>
-            <v-btn href="https://www.instructables.com/Water-Balloon-Launcher/" target="_blank">
+            <v-btn href="https://www.my-best-kite.com/flying-kites.html" target="_blank">
                 Exemplar
             </v-btn>
         </v-card>
@@ -33,7 +33,7 @@
             Description
         </v-card-title>
         <v-card-text>
-            This project is incredibly enagaging and surprisingly simple. The project consists of constructing a free standing structure capable of launching water balloons using an elastic slingshot. The structure should be made from dimensional lumber, but the size of the final project is entirely up to you.
+            This project is challenging. It requires students to have precise motor skills, a willingness to experiment, and the warewithal to fail repeatedly and not give up. In this project students will work with a few different materials. You need a material for the body of the kite, and the supports for the kite. You will additionally need string and a tail material. These materials can range from trashbags and dowels to mylar and carbon fiber rods.  
         </v-card-text>
     </v-card>
     <v-card class="ma-6">
@@ -41,7 +41,7 @@
         Process
         </v-card-title>
         <v-card-text>
-            Students should begin by researching the project, planning the entire structure, and creating a cut list. Students would then make their cuts and assemble their projects. My group started by working in Solidworks to determine the proper angles to maximize our distance. We determined the waterballoon should release at a 45 degree angle, and that the elastic could be pulled to a maximum distance of 10 feet. With those two pieces of information we were able to create a rough design of our project. We made sure to add ample support in the form of cross bracing. We specifically chose to make an 'X' shape with our supports to ensure the balloons had a valid path to travel upon release without hitting the supports.
+            Kite building is a science. There is a time and place for student exploration and productive struggling, but this is not that. Unless you are teaching an advanced engineering course, I would say that instructions are a non-option. I used one of the basic tutorials from the provided resources page. I made mine from mylar sheet and wooden dowel. The tricky part of the build was correctly placing the mount onto the kite. The mounting point is critical for correctly balancing the kite and giving enough lift to stay in flight. 
         </v-card-text>
         <v-carousel>
             <v-carousel-item
@@ -56,7 +56,7 @@
           Results  
         </v-card-title>
         <v-card-text>
-            Our structure was very successful. We had very few missfires, and the design was incredibly consistent. The standard deviation of our shots was less than 40ft and we averaged 280ft distance per shot with a 24 m/s launch velocity. 
+            After the wind picked up a little bit I was able to get sustained flight. I was honestly impressed with the stability and consistently of the kite I made. With a very gently breeze I was able to get consistent, seemingly indefinite, flight with my little kite.
         </v-card-text>
         <v-carousel>
             <v-carousel-item
@@ -73,7 +73,7 @@
 export default {
     data () {
         return {
-            name: 'catapult',
+            name: 'kite',
             items: [
           {
             src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
