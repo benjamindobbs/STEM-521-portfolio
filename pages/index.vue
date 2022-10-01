@@ -36,25 +36,25 @@ export default {
         name: 'IndexPage',
         items: [
           {
-            src: "/home/2.jpg"
+            src: "~/static/home/2.jpg"
           },
           {
-            src: "/home/3.jpg"
+            src: "~/static/home/3.jpg"
           },
           {
-            src: "/home/4.jpg"
+            src: "~/static/home/4.jpg"
           },
           {
-            src: "/home/5.jpg"
+            src: "~/static/home/5.jpg"
           },
           {
-            src: "/home/7.jpg"
+            src: "~/static/home/7.jpg"
           },
           {
-            src: "/home/11.jpg"
+            src: "~/static/home/11.jpg"
           },
           {
-            src: "/home/12.JPG"
+            src: "~/static/home/12.JPG"
           },
         ]    
       }

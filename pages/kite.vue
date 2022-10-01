@@ -88,51 +88,51 @@ export default {
             name: 'kite',
             items: [
             {
-            src: '/kite/1.jpg',
+            src: '~/static/kite/1.jpg',
           },
           {
-            src: '/kite/2.jpg',
+            src: '~/static/kite/2.jpg',
           },
           {
-            src: '/kite/3.jpg',
+            src: '~/static/kite/3.jpg',
           },
           {
-            src: '/kite/4.jpg',
+            src: '~/static/kite/4.jpg',
           },
           {
-            src: '/kite/5.jpg',
+            src: '~/static/kite/5.jpg',
           },
           {
-            src: '/kite/6.jpg',
+            src: '~/static/kite/6.jpg',
           },
           {
-            src: '/kite/7.jpg',
+            src: '~/static/kite/7.jpg',
           },
           {
-            src: '/kite/8.jpg',
+            src: '~/static/kite/8.jpg',
           },
           {
-            src: '/kite/9.jpg',
+            src: '~/static/kite/9.jpg',
           },
           {
-            src: '/kite/10.jpg',
+            src: '~/static/kite/10.jpg',
           },
           {
-            src: '/kite/11.JPG',
+            src: '~/static/kite/11.JPG',
           },
           {
-            src: '/kite/12.JPG',
+            src: '~/static/kite/12.JPG',
           },
           
         ],
           processimages: [
           {
-            src: '/kite/11.JPG',
+            src: '~/static/kite/11.JPG',
           },
           ],
           productimages:[
           {
-            src: '/kite/12.JPG',
+            src: '~/static/kite/12.JPG',
           },
           ]
         }
