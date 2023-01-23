@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/geometric-art", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/cardboard-furniture", {data:[{}],fetch:{},mutations:void 0});
